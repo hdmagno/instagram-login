@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    background: #FAFAFA;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    border: 0.01rem solid rgb(184, 182, 182);
+    margin-top: 2rem;
+    background: #FFF;
+}
+
+.login-img img {
+    width: 100%;
+    width: 11rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+form input {
+    margin-bottom: 0.6rem;
+    width: 17rem;
+    height: 2.5rem;
+    background: #fafafa;
+    border: 0.01rem solid rgb(184, 182, 182);
+    padding: 0.6rem;
+}
+
+form input::placeholder {
+    font-size: 0.7rem;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    background-color: #B2DFFC;
+    color: #fff;
+    border-radius: 0.25rem;
+}
+
+form button:hover {
+    background-color: #56bbff;
+    transition: 0.2s;
+}
+
+.division {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.6rem;
+}
+
+.division-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.division span {
+    font-size: 0.7rem;
+}
+
+.division:nth-child(1),
+.division:nth-child(3) {
+    width: 150px;
+}
+
+.forget-password,
+.enter-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    border: 0.01rem solid rgb(184, 182, 182);
+    width: 22rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background: #FFF;
+}
+
+.register span {
+    color: #5295F6;
+    font-weight: 700;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22rem;
+    margin-top: 1rem;
+}
+
+.store p {
+    margin-bottom: 1rem;
+}
+
+.store-imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.store-imgs img {
+    display: inline-block;
+    width: 36%;
+    margin-right: 0.5rem;
+}
